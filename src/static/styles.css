@@ -6,6 +6,9 @@
   --primary-dark: #000051;
   --primary-text: #ffffff;
 
+  /* Announcement banner color */
+  --announcement-bg: #4caf50;
+
   /* Secondary colors */
   --secondary: #ff6f00;
   --secondary-light: #ffa040;
@@ -663,4 +666,12 @@ footer {
 
 #logout-button:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.announcement-banner {
+  background-color: var(--announcement-bg);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
 }
